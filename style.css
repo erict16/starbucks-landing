@@ -26,10 +26,6 @@ li {
     margin: 10px;
 }
 
-header {
-
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -50,10 +46,17 @@ nav a {
     margin: 20px;
 }
 
+main {
+    height: 100vh;
+
+}
+
 /* Class */
 .logo {
     width: 73px;
     height: 61px;
 }
+
+
 
 /* ID */
