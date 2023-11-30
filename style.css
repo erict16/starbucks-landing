@@ -1,10 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lato:wght@300;400;700&display=swap');
+
 
 /* Prevent font size inflation */
 html {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: #000;
+}
+
+p {
+    margin-top: 5px;
+    color: #000;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 200% */
+    letter-spacing: 1.5px;
 }
 
 /* Elements */
@@ -46,9 +68,26 @@ nav a {
     margin: 20px;
 }
 
-main {
+body {
     height: 100vh;
+}
 
+main {
+    margin-top: 100px;
+    padding: 26px 31px;
+}
+
+button {
+    margin-top: 35px;
+    border-radius: 5px;
+    background: #00704A;
+    color: white;
+    box-shadow: 20px 20px 40px 0px #E5E5E5;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+    width: 263px;
+    height: 89px;
 }
 
 /* Class */
@@ -57,6 +96,17 @@ main {
     height: 61px;
 }
 
+.container {
+    display: flex;
+    margin: 0 145px;
+}
+
+.hero-content {
+    width: 641px;
+    flex-direction: column;
+    justify-content: center;
+
+}
 
 
 /* ID */
