@@ -21,7 +21,7 @@ h1 {
 p {
     margin-top: 5px;
     color: #000;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -69,7 +69,7 @@ nav a {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
 }
 
 main {
@@ -108,5 +108,14 @@ button {
 
 }
 
+.hero-image {
+    background-image: url("images/frappe.png");
+    background-size: cover;
+    overflow-y: hidden;
+    width: 510px;
+    height: 496px;
+    flex-shrink: 0;
+
+}
 
 /* ID */
