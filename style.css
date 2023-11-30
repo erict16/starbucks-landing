@@ -92,6 +92,7 @@ button {
 
 /* Class */
 .logo {
+    margin-left: 25px;
     width: 73px;
     height: 61px;
 }
