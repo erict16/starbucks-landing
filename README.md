@@ -22,7 +22,7 @@ This project is a static landing page designed to showcase the layout and stylin
 
 ## Screenshots
 
-![starbucks](https://github.com/erict16/starbucks-landing/assets/83531295/c6fa01dd-ef46-49f3-89a3-25722a82761d)
+![starbucks](https://github.com/erict16/starbucks-landing/assets/83531295/d26c7e82-72b0-44ae-b400-5d9ef13585bb)
 
 
 ## Usage
