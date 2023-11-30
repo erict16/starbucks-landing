@@ -1,4 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Elements */
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 10px;
+}
+
+header {
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin: 30px 145px;
+    white-space: nowrap;
+
+}
+
+nav a {
+    text-decoration: none;
+    /* Change to white later */
+    color: black;
+    margin: 20px;
+}
+
+/* Class */
+.logo {
+    width: 73px;
+    height: 61px;
+}
+
+/* ID */
